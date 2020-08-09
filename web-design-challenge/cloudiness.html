@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    
+    <!-- My CSS -->    
+    <link rel="stylesheet" href="style.css">
+    <title>Cloudiness</title>
+  </head>
+
+  <body class = "background">
+    <!-- Bootstrap Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+      <a  class="navbar-brand" href="index.html">
+        <button type="button" class="btn btn-lg buttontitle">Latitude</button>
+      </a>
+    <!-- Bootstrap dropdown -->
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Plots
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="temperature.html">Temperature</a>
+              <a class="dropdown-item" href="humidity.html">Humidity</a>
+              <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+              <a class="dropdown-item" href="wind_speed.html">Wind Speed</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="comparison.html">Comparison</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="data.html">Data</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    
+    <!-- Visualizations -->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-8">
+          <div style= "margin-left: 70px;" class="layout">
+            <header>
+              <h2 class = "title">Lattitude vs. Cloudiness</h2>
+            </header>
+            <img src="Resources/assets/images/Fig3.png" class="single_visualization">
+            <p class= "text_format">As shown on the graph, the data shows that there is no correlation 
+              between humidity and the equator. In addition, the data also shows that most cities have 
+              humidity above 50.</p>
+          </div>
+        </div>
+        <div class="col-4">
+          <div style= "margin-right: 50px;" class="layout">
+            <header>
+              <h4 class="title">Visualizations</h4>
+            </header>
+            <div class="container">
+              <div class="row">
+                <div class="col-6">
+                  <a href="temperature.html">
+                    <img src="Resources/assets/images/Fig1.png">
+                  </a>
+                </div>
+                <div class="col-6">
+                  <a href="humidity.html">
+                    <img src="Resources/assets/images/Fig2.png">
+                  </a>
+                </div>
+              </div>
+              <div class="row" style="padding-top: 30px;">
+                  <div class="col-6">
+                    <a href="cloudiness.html">
+                      <img src="Resources/assets/images/Fig3.png">
+                    </a>
+                  </div>
+                  <div class="col-6">
+                    <a href="wind_speed.html">
+                      <img src="Resources/assets/images/Fig4.png">
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer class = "footer">
+        <div class = "container">
+          <div class= "row">
+            <div class="col-12">
+              <span>Copyright Coding Bootcamp 2020
+              </span>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </body>
+</html>
